@@ -35,4 +35,21 @@ public class CalcolatriceTest {
     public void TestDivisionePerZero() {
         assertTrue("divisione corretta", calcolatrice.divisione(10,0)==0);
     }
+
+    @Test
+    public void TestModulo() {
+        assertTrue ("modulo corretto", calcolatrice.modulo(512113547,3) == 2);
+    }
+
+    @Test
+    public void TestLogaritmo () {
+        assertTrue("logaritmo corretto", calcolatrice.logaritmo(8,2) == 3);
+    }
+
+    @Test
+    public void TestLogaritmoNegativo () {
+        assertTrue("logaritmo corretto", calcolatrice.logaritmo(-1,2) == -1);
+    }
+
+
 }

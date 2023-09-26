@@ -23,4 +23,15 @@ public class Calcolatrice {
         }
         else return 0;
     }
+
+    public int modulo (int a, int b) {return a%b; }
+
+    public double logaritmo (int a, int base) {
+        if (a <= 0)
+            return -1;
+
+        return (Math.log(a) / Math.log(base));
+    }
+
+
 }
