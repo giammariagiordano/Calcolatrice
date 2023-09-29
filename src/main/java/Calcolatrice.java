@@ -23,4 +23,6 @@ public class Calcolatrice {
         }
         else return 0;
     }
+
+    public int modulo (int a, int b){ return a % b; }
 }
