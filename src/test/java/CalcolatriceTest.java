@@ -35,4 +35,10 @@ public class CalcolatriceTest {
     public void TestDivisionePerZero() {
         assertTrue("divisione corretta", calcolatrice.divisione(10,0)==0);
     }
+
+    @Test
+    public void TestModulo() {
+        assertTrue("modulo", calcolatrice.modulo(8,2)==0);
+    }
+
 }
